@@ -236,8 +236,8 @@
 }
 .visual .box .btn-area a.app {
 	background: #fff;
-	box-shadow: 0px 0px 10px #ff3c00;
-	color: #ff3c00;
+	box-shadow: 0px 0px 10px #ffcb00;
+	color: #ffcb00;
 }
 
 .visual .grid4 {
@@ -250,7 +250,7 @@
   width: 23%;
   color: #00c5df;
   font-size: 20px;
-  background: #111145;
+  background: #ed3974;
   border-radius: 7px;
   margin: 0 1%;
   padding: 2.5% 0 3%;
@@ -344,7 +344,7 @@
   width: calc(20% - -120px);
   max-width: 280px;
   height: 270px;
-  background: #111145;
+  background: #ed3974;
   border-radius: 7px;
   margin: 0 12px;
   transition: box-shadow 0.2s ease-in-out;
@@ -365,7 +365,7 @@
   width: 123px;
   height: 123px;
   margin: 0 auto;
-  background: radial-gradient(#111145, #171b4a);
+  background: radial-gradient(#ed3974, #ed3974);
   box-shadow: 2px 3px 5px #000;
   border-radius: 50%;
   text-align: center;
