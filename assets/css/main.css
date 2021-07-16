@@ -237,7 +237,7 @@
 .visual .box .btn-area a.app {
 	background: #fff;
 	box-shadow: 0px 0px 10px #ffcb00;
-	color: #ffcb00;
+	color: #00c5df;
 }
 
 .visual .grid4 {
@@ -248,14 +248,14 @@
   position: relative;
   display: inline-block;
   width: 23%;
-  color: #00c5df;
+  color: #ffcb00;
   font-size: 20px;
   background: #ed3974;
   border-radius: 7px;
   margin: 0 1%;
   padding: 2.5% 0 3%;
   transition: box-shadow 0.2s ease-in-out;
-  box-shadow: 0 0 10px #000033;
+  box-shadow: 0px 0px 10px #ffcb00;
 }
 .visual .grid4 > div:hover {
   box-shadow: 0 0 10px rgba(203,203,255,0.5);
@@ -267,7 +267,7 @@
 }
 .visual .grid4 > div p {
   font-size: 14px;
-  color: #00c5df;
+  color: #ffcb00;
   font-weight: 300;
 }
 
@@ -348,7 +348,7 @@
   border-radius: 7px;
   margin: 0 12px;
   transition: box-shadow 0.2s ease-in-out;
-  box-shadow: 0 0 10px #000033;
+  box-shadow: 0px 0px 10px #ffcb00;
 }
 .section01 .grid5 .swiper-slide:after {
   content: '';
@@ -446,6 +446,9 @@
 	position: relative;
 	text-align: center;
 }
+.section02 .grid4 > div .thumb img {
+  filter: brightness(3.25);
+}
 .section02 .grid4 > div strong {
   display: block;
   color: #fff;
@@ -500,17 +503,17 @@
   transform: translate(-50%,-50%);
 }
 .menubox-round .rotate .line1 {
-  border: 1px solid #151544;
+  border: 4px solid #ed3974;
   width: 100%;
   height: 100%;
 }
 .menubox-round .rotate .line2 {
-  border: 1px solid #292954;
+  border: 3px solid #ed3974;
   width: 77%;
   height: 77%;
 }
 .menubox-round .rotate .line3 {
-  border: 1px solid #2f2f59;
+  border: 2px solid #ed3974;
   width: 55%;
   height: 55%;
 }
@@ -519,7 +522,7 @@
   display: block;
   background: #fff;
   border-radius: 50%;
-  box-shadow: 0 0 10px #ff3c00;
+  box-shadow: 0 0 10px #00c5df;
   width: 10px;
   height: 10px;
 }
@@ -535,8 +538,12 @@
   top: 50%;
   right: -6px;
 }
+.menubox-round .rotate .line3 span.dot4 {
+  top: -24%;
+  right: 88px;
+}
 .menubox-round .rotate .line4 {
-  border: 1px solid #cdcdd7;
+  border: 1px solid #ff3c00;
   width: 35%;
   height: 35%;
 }
@@ -555,10 +562,14 @@
   box-shadow: 0 0 10px #ff3c00;
 }
 .menubox-round .pin { 
-  background: url(../images/pin.png)no-repeat 50% 50%;
+  /* background: url(../images/logo.png)no-repeat 50% 50%; */
+  /* background: url(../images/logo.png) no-repeat 100% 100%; */
+  background: url(../images/logo.png);
+  background-size: 100% 100%;
+  border-radius: 50%;
   animation: rotatePin infinite linear 3s;
-  width: 32px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
   position: absolute;
   top: 57%;
   left: 50%;
