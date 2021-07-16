@@ -248,7 +248,7 @@
   position: relative;
   display: inline-block;
   width: 23%;
-  color: #fff;
+  color: #00c5df;
   font-size: 20px;
   background: #111145;
   border-radius: 7px;
@@ -267,7 +267,7 @@
 }
 .visual .grid4 > div p {
   font-size: 14px;
-  color: #fff;
+  color: #00c5df;
   font-weight: 300;
 }
 
@@ -275,6 +275,7 @@
   animation: fadeUp 1s ease both;
 }
 #section0.first .delay1 {
+  color: #00c5df;
   animation-delay: .1s;
 }
 #section0.first .delay2 {
@@ -402,7 +403,7 @@
 .section02 {
 	width: 100%;
 	text-align: center;
-  background: #000033;
+  background: #fff;
   z-index: 1;
 }
 #particles-background, #particles-foreground {
@@ -464,7 +465,7 @@
 .section03 {
 	width: 100%;
 	text-align: center;
-  background: #000033;
+  background: #fff;
   z-index: 1;
 }
 .section03 .sub-title {
@@ -737,14 +738,14 @@
     position: absolute;
     width: 200%;
     height: 100%;
-    background: #000333;
+    background: #fff;
     border-radius: 100%/100%;
     left: 50%;
     bottom: -55%;
     margin-left: -100%;
-    box-shadow: 1px 1px 60px rgba(255,60,0,.5);
+    /* box-shadow: 1px 1px 60px rgba(255,60,0,.5); */
 }
-#earth:before {
+/* #earth:before {
     content: " ";
     position: absolute;
     width: 100%;
@@ -765,7 +766,7 @@
     width: 100%;
     height: 100%;
     border-radius: 100%/100%;
-}
+} */
 .section05 .v50 {
   display: block;
   margin-top: 10%;
@@ -776,6 +777,9 @@
   font-size: 25px;
   color: #fff;
   font-family: 'NanumSquare', sans-serif;
+}
+.section05 .logo span {
+  color: #00c5df;
 }
 .section05 .logo img {
   width: 40px;
